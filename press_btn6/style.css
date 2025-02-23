@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #37132d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.5s ease-in, transform 0.2s ease;
+    font-family: var(--secondary-font);
+}
+
+.main-btn:hover {
+    background-color: rgb(116, 76, 124);
+}
+
+.main-btn:active {
+    background-color: rgb(116, 76, 124);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
